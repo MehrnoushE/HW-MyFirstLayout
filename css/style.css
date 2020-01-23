@@ -1,0 +1,38 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav {
+    background-color: #ffffff;
+    position: fixed;
+    top: 0px;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+}
+
+.left {
+    display: flex;
+    width: 20%;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.right {
+    display: flex;
+    right: 80%;
+    justify-content: flex-end;
+    align-items: center;
+}
+section {
+    min-height: 90vh;
+    padding: 170px 200px;
+}
+
+section:nth-of-type(odd) {
+    background-color: #ffffff;
+}
+section:nth-of-type(even) {
+    background-color: #D0C9B9;
+}
